@@ -7,3 +7,4 @@ echo "export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/" >> ~/.bashrc &&
 echo "export HADOOP_HOME=/home/ubuntu/hadoop" >> ~/.bashrc &&
 echo "export HADOOP_CONF=$HADOOP_HOME/conf"  >> ~/.bashrc &&
 echo "export PATH=$PATH:$JAVA_HOME:$HADOOP_HOME/bin" >> ~/.bashrc
+source ~/.bashrc
